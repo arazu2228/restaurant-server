@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-server",
+  "version": "1.0.0",
+  "description": "Restaurant Server with GraphQL | Apollo Server | Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/datasource-rest": "^5.0.1",
+    "@apollo/server": "^4.3.1",
+    "@apollo/server-plugin-response-cache": "^4.1.0",
+    "@apollo/utils.keyvaluecache": "^2.1.0",
+    "date-fns": "^2.15.0",
+    "fast-xml-parser": "^3.17.4",
+    "graphql": "^16.6.0",
+    "graphql-parse-resolve-info": "^4.7.0",
+    "graphql-type-json": "^0.3.1",
+    "node-fetch": "^2.6.0"
+  }
+}
